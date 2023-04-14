@@ -125,7 +125,7 @@ def get_highest_rating(db): #Do this through DB as well
     ax2.set_xlabel("Ratings")
     ax2.set_ylabel("Buildings")
     # Avoid Overlap
-    fig.tight_layout(pad=0.7)
+    fig.tight_layout(pad=0.5)
     fig.savefig('EC.png', bbox_inches='tight')
     plt.figure().clear()
     return rest
